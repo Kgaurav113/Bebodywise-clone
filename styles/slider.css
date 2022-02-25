@@ -1,0 +1,208 @@
+
+.hair-corousel{
+    height:580px;
+    width:960px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+}
+
+.hair-corousel a {
+    /* color:rgb(107, 104, 104) */
+    height:32px;
+    width:32px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hair-corousel a i{
+    justify-content: center;
+    margin-top:7px;
+}
+.hair-corousel .hair-slide{
+    overflow: hidden;
+    height:580px;
+    width:900px;
+    justify-content: center;
+    margin:auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.hair-corousel .hair-slide .hair-slide-cointainer .hair-thumbnails{
+    display: flex;
+    gap:20px;
+    
+}
+
+.skin-corousel{
+    height:580px;
+    width:960px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    
+    
+}
+
+.skin-corousel a {
+    height:32px;
+    width:32px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.skin-corousel a i{
+    justify-content: center;
+    margin-top:7px;
+}
+.skin-corousel .skin-slide{
+    overflow: hidden;
+    height:580px;
+    width:900px;
+    justify-content: center;
+    margin:auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.skin-corousel .skin-slide .skin-slide-cointainer .skin-thumbnails{
+    display: flex;
+    gap:20px;
+    
+}
+
+.weight-corousel{
+    height:580px;
+    width:960px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    
+    
+}
+
+.weight-corousel a {
+    height:32px;
+    width:32px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.weight-corousel a i{
+    justify-content: center;
+    margin-top:7px;
+}
+.weight-corousel .weight-slide{
+    overflow:hidden;
+    left:0;
+    right:0;
+    height:580px;
+    width:900px;
+    justify-content: center;
+    margin:auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.weight-corousel .weight-slide .weight-slide-cointainer .weight-thumbnails{
+    display: flex;
+    gap:20px;
+    
+}
+
+.pcos-corousel{
+    height:580px;
+    width:960px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    
+    
+}
+
+.pcos-corousel a {
+    height:32px;
+    width:32px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pcos-corousel a i{
+    justify-content: center;
+    margin-top:7px;
+}
+.pcos-corousel .pcos-slide{
+    overflow:hidden;
+    left:0;
+    right:0;
+    height:580px;
+    width:900px;
+    justify-content: center;
+    margin:auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.pcos-corousel .pcos-slide .pcos-slide-cointainer .pcos-thumbnails{
+    display: flex;
+    gap:20px;
+    
+}
+
+.feminine-corousel{
+    height:580px;
+    width:960px;
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    
+    
+}
+
+.feminine-corousel a {
+    height:32px;
+    width:32px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+.feminine-corousel a i{
+    justify-content: center;
+    margin-top:7px;
+}
+.feminine-corousel .feminine-slide{
+    overflow:hidden;
+    left:0;
+    right:0;
+    height:580px;
+    width:900px;
+    justify-content: center;
+    margin:auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.feminine-corousel .feminine-slide .feminine-slide-cointainer .feminine-thumbnails{
+    display: flex;
+    gap:20px;
+    
+}
+
+
+
