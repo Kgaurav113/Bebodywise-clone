@@ -1,0 +1,56 @@
+/* start of tkewellness css */
+/* head div */
+#takehead{
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    
+    gap:10px;
+}
+#takehead>div{
+    gap:10px;
+}
+/* takewell assessment div flex to every radio button div */
+.take{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.take>div:nth-child(1)
+{
+    margin-top: 20px;
+}
+/* takewell assessment cross button css */
+#takebutton{
+    color: red;
+    border-color: red;
+    border-radius: 50%;
+    justify-content: right;
+    margin-left: 300px;
+
+}
+#timg{
+    width:100%;
+}
+/* cross button css */
+#cross{
+
+    align-items:right;
+    justify-content: right;
+    box-sizing: border-box;
+    margin-left: 300px;
+    
+
+}
+/* 1st div css takewell assessment */
+#toppara>p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+/* end of takewellness html */

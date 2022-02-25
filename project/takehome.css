@@ -1,0 +1,44 @@
+  /* css part of take wllness assessment */
+    /* starting part of css  */
+    /* footer start now css */
+    #footertake{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        text-align: center;
+        margin: auto;
+    }
+    /* start now css */
+   #fs{
+       background-color: black;
+       width: 50%;
+       height: 100%;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+       margin: auto;
+       padding: 20px;
+      
+   }
+   /* image div css */
+   #fimg{
+       margin: auto;
+    
+       align-items: center;
+       width: 50%;
+       box-sizing: border-box;
+       
+      
+       
+   }
+   /* image css */
+   #timg{
+       height:500px;
+       width:100%;
+   }
+   /* end of css part of take wellness assessment  */
+/* end here */

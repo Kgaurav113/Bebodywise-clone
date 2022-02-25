@@ -1,0 +1,153 @@
+/* first bannner  css start  */
+/* top section css */
+#gaurav {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    color: white;
+    box-sizing: border-box;
+    max-width: 80%;
+  }
+  /* left top section */
+  #bodyLefttop {
+    display: grid;
+    grid-template-rows: 45% 30%;
+    justify-content: space-between;
+  }
+  /* right section  */
+  #bodyRight {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    justify-content: space-between;
+    height: 100%;
+  }
+  /* image css */
+  #gaurav img {
+    max-width: 100%;
+    object-fit: cover;
+    filter: brightness(0.94);
+  }
+  /* left button book now image doctor */
+  #leftb {
+    display: flex;
+    background-color: rgb(88, 173, 173);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+    height: 167px;
+    padding-left: 20px;
+  }
+  
+  #bodyLefttop p {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 5px;
+  }
+  /* left side bottom div */
+  #leftb p {
+ margin: auto;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+
+  }
+  
+  #leftb button
+   {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+    background-color: #000;
+    width: 270px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 24px;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  
+  #leftb img {
+    float: right;
+    width: 150%;
+    top: 50px;
+  }
+  
+  #bodyRight > div:nth-child(1) img {
+    object-fit: cover;
+    height: 100%;
+  }
+  #bodyRight > div:nth-child(2) {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+  
+  #bodyRight > div {
+    border-radius: 22px;
+    vertical-align: middle;
+  }
+  
+  #bodyRight > div img {
+    border-radius: 22px;
+    justify-content: space-around;
+  }
+  
+  #bodyLefttop span {
+    font-size: 110px;
+    line-height: 121px;
+    font-weight: 500;
+    color: #111d3c;
+  }
+  #leftb > div:nth-child(1) {
+    position: absolute;
+  }
+  
+  #womanShow {
+    height: 117%;
+    width: 200px;
+    margin-bottom: 29px;
+    margin-left: 65%;
+  }
+  #womanShow img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: brightness(1);
+    max-width: 100%;
+  }
+  /* first banner under top section */
+  #firstbanner{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    box-sizing: border-box;
+ margin: auto;
+ margin-top: 10px;
+    width: 80%;
+    
+}
+#firstbanner>div{
+    justify-items: center;
+    
+   
+}
+.firstimgbanner{
+    width:100%;
+    aspect-ratio: auto 105 / 140;
+    height:100%;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+  
+    
+}
+/* end of css part for homepage first banner css */
