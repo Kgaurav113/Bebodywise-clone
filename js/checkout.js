@@ -132,6 +132,9 @@ var cart=JSON.parse(localStorage.getItem("cartItems"))||[];
         proceedtobtn.style.display="none";
         downArrowaddress.style.display="block";
         upArrowaddress.style.display="none";  
+        var proceedtopay=document.querySelector(".proceed-to-pay");
+        proceedtopay.innerText="Pay"+" "+"₹"+" "+cartPrice;
+        proceedtopay.style.display="block";
     })
      // Address Arrow button function end
 
