@@ -1348,6 +1348,14 @@ var cart=JSON.parse(localStorage.getItem("cartItems"))||[];
     addToCart.style.borderBottomLeftRadius="30px";
     addToCart.style.borderBottomRightRadius="30px";
     addToCart.style.cursor="pointer";
+    addToCart.addEventListener("mouseover",addcarthover);
+    addToCart.addEventListener("mouseleave",addcartleave);
+    function addcartleave(){
+      addToCart.style.backgroundColor="rgb(72, 61, 139)";
+    }
+    function addcarthover(){
+      addToCart.style.backgroundColor="rgba(72, 61, 139,0.7)";
+    }
     addToCart.addEventListener("click", addCart);
     function addCart()
     {
@@ -1427,7 +1435,7 @@ function detail(pro)
     var DecaddToCart=document.createElement("button");
     DecaddToCart.innerText="Add to Cart";
     DecaddToCart.style.width="100%";
-    DecaddToCart.style.backgroundColor="darkslateblue";
+    DecaddToCart.style.backgroundColor="rgb(72, 61, 139)";
     DecaddToCart.style.color="white";
     DecaddToCart.style.fontSize="20px";
     DecaddToCart.style.border="none";
@@ -1436,6 +1444,14 @@ function detail(pro)
     DecaddToCart.style.borderRadius="30px";
     DecaddToCart.style.cursor="pointer";
     DecaddToCart.style.marginTop="20px";
+    DecaddToCart.addEventListener("mouseover",addcarthover);
+    DecaddToCart.addEventListener("mouseleave",addcartleave);
+    function addcartleave(){
+      DecaddToCart.style.backgroundColor="rgb(72, 61, 139)";
+    }
+    function addcarthover(){
+      DecaddToCart.style.backgroundColor="rgba(72, 61, 139,0.7";
+    }
     DecaddToCart.addEventListener("click", addCart);
     function addCart()
     {
@@ -1456,6 +1472,5 @@ function detail(pro)
     var productPage=document.querySelector(".allproducts");
     productPage.style.overflow="hidden";
     
-
-
 };  
+

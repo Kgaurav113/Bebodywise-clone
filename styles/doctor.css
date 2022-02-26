@@ -1,0 +1,133 @@
+.main{
+    height: 90px;
+    width:30%;
+    margin: auto;
+    }
+
+.first{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.second{
+    display: flex;
+    color: #808080;
+}
+.input1 {
+    height:30px;
+    width: 30px;
+    background-color: black;
+    color:white;
+    border: 1px solid;
+   margin-top:20px ;
+   border-radius: 12px;
+   font-size: 15px;
+   
+}
+.input2{
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    border-radius: 12px;
+    border: 1px solid;
+   margin-top:20px ;
+   color: grey;
+   font-size: 15px;
+}
+.main p{
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight:550;
+    padding-left:35px;
+    line-height: 0;
+}
+.sch{
+    margin-left: 35px;
+    line-height:0;
+}
+.info{
+    margin-left: 32px;
+    line-height:0;
+
+}
+.line{
+     height: 2px;
+     width:26%;
+     background-color: #e0e0e0;
+     color: grey ;
+     
+     margin-top: 35px;
+    }  
+
+.main h3{
+      text-align: center;
+      margin: auto;
+      margin-top: 5px;
+      font-family: sans-serif;
+      font-weight: 530;
+  }
+.main h2{
+  margin-left:37%;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 25px;
+  line-height: 10px;
+}
+.button{
+    height:65px;
+    width: 400px;
+    border: 1px solid ;
+    border-radius: 20px;
+    margin-left:35%;
+    cursor: pointer;
+    background-color: #ffff;
+    margin-top: 5px;
+    
+    
+    
+    
+}
+/* .button:hover{
+    color:blue;
+    background-color:blue;
+    
+
+} */
+.inside{
+    display: flex;
+    justify-content: left;
+    
+   
+   
+    
+}
+.radio{
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    margin-top:15px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+
+}
+.img{
+    height: 33px;
+    width: 33px;
+    margin-top:8px;
+    margin-left: 8px;
+}
+.main h1{
+    font-size:19px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: black;
+}
+
+.doctor-head{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:500px;
+    margin-bottom: 10px;
+
+}

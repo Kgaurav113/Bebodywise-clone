@@ -89,8 +89,19 @@ if(cart.length>0)
         savingsAmt.style.color="black";
 
         savings.append(savingsAmt);
+
+        var emptyCart=document.createElement("img");
+        emptyCart.setAttribute("src","https://www.iconsdb.com/icons/preview/black/delete-xxl.png");
+        emptyCart.style.height="25px";
+        emptyCart.style.width="25px";
+        emptyCart.style.cursor="pointer";
+        emptyCart.addEventListener("click",function(){
+            location.reload(true);
+            localStorage.setItem("cartItems",JSON.stringify([]));
+        })
+
         
-        itemsTotal.append(items,total,savings);
+        itemsTotal.append(items,total,savings,emptyCart);
 
         var productsTotal=document.createElement("div");
         productsTotal.setAttribute("class","productsTotal");
@@ -110,6 +121,11 @@ if(cart.length>0)
         productHead.innerText="Products";
         productHead.style.fontWeight="bold";
         productHead.style.fontSize="18px";
+
+        var emptyCart=document.createElement("img");
+        emptyCart.setAttribute("src","https://www.iconsdb.com/icons/preview/black/delete-xxl.png");
+        emptyCart.style.height="25px";
+        emptyCart.style.width="25px";
              
        
 
@@ -289,6 +305,9 @@ if(cart.length>0)
         checkoutButton.style.color="white";
         checkoutButton.style.width="210px";
         checkoutButton.style.cursor="pointer";
+        checkoutButton.addEventListener("click",function(){
+            location.href="checkout.html";
+        })
 
         alltotal.append(totalDisplay,checkoutButton);
 
@@ -393,12 +412,17 @@ function showCart(cart)
        
         productDiv.append(productDisplay,hr);
         productsTotal.append(productDiv);
-        document.querySelector(".cart-items").append(itemsDiv);
+        
 
         function decreasequant(index){
+            
+            if(cart[index].quant>1 && cart[index].quant!=0){
             cart[index].quant--;
             localStorage.setItem("cartItems",JSON.stringify(cart));
             location.reload(true);
+            
+            }
+            
         }
 
         function increasequant(index){
@@ -406,6 +430,9 @@ function showCart(cart)
             localStorage.setItem("cartItems",JSON.stringify(cart));
             location.reload(true);
         }
+     
+                
+        document.querySelector(".cart-items").append(itemsDiv);
         
     });
 };

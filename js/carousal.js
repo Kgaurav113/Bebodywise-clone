@@ -1200,7 +1200,16 @@
       image.style.width="250px";
       image.style.borderRadius="30px";
       image.setAttribute("src", elem.imageUrl);
-  
+      image.style.cursor="pointer";
+      image.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var starDiv=document.createElement("div");
       starDiv.style.width="237px";
       starDiv.style.height="26px";
@@ -1208,7 +1217,16 @@
       var h1=document.createElement("p");
       h1.innerText=elem.productName;
       h1.style.fontSize="20px";
-  
+      h1.style.cursor="pointer";
+      h1.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var rupeeDiv=document.createElement("div");
       rupeeDiv.style.display="flex";
   
@@ -1236,7 +1254,15 @@
       forDiv.style.display="flex";
       forDiv.style.flexDirection="row";
       forDiv.style.gap="10px";
-      
+      forDiv.style.cursor="pointer";
+      forDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
   
       var usesquote=document.createElement("p");
       usesquote.innerText="FOR";
@@ -1257,8 +1283,8 @@
       withDiv.addEventListener("click",productDetail)
       function productDetail()
       {
-        console.log(elem)    
-        detail(elem);
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
         
         
       }
@@ -1280,7 +1306,7 @@
       var addToCart=document.createElement("button");
       addToCart.innerText="Add to Cart";
       addToCart.style.width="100%";
-      addToCart.style.backgroundColor="darkslateblue";
+      addToCart.style.backgroundColor="rgb(102, 80, 154)";
       addToCart.style.color="white";
       addToCart.style.fontSize="20px";
       addToCart.style.border="none";
@@ -1289,9 +1315,18 @@
       addToCart.style.borderBottomLeftRadius="30px";
       addToCart.style.borderBottomRightRadius="30px";
       addToCart.style.cursor="pointer";
+      addToCart.addEventListener("mouseover", addCartBtnhover);
+      addToCart.addEventListener("mouseleave", addCartBtnleave);
+      function addCartBtnleave(){
+        addToCart.style.backgroundColor="rgb(102, 80, 154)";
+      }
+      function addCartBtnhover(){
+        addToCart.style.backgroundColor="rgba(102, 80, 154,0.7)";
+      }
       addToCart.addEventListener("click", addCart);
       function addCart()
       {
+        scroll(0,0);
         alert("The product has been added to the cart.")
         location.reload(true);
         elem.quant=1;
@@ -1348,7 +1383,16 @@ var skinthumbnails=document.querySelector(".skin-slide");
       image.style.width="250px";
       image.style.borderRadius="30px";
       image.setAttribute("src", elem.imageUrl);
-  
+      image.style.cursor="pointer";
+      image.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var starDiv=document.createElement("div");
       starDiv.style.width="237px";
       starDiv.style.height="26px";
@@ -1356,7 +1400,16 @@ var skinthumbnails=document.querySelector(".skin-slide");
       var h1=document.createElement("p");
       h1.innerText=elem.productName;
       h1.style.fontSize="20px";
-  
+      h1.style.cursor="pointer";
+      h1.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var rupeeDiv=document.createElement("div");
       rupeeDiv.style.display="flex";
   
@@ -1384,7 +1437,15 @@ var skinthumbnails=document.querySelector(".skin-slide");
       forDiv.style.display="flex";
       forDiv.style.flexDirection="row";
       forDiv.style.gap="10px";
-      
+      forDiv.style.cursor="pointer";
+      forDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
   
       var usesquote=document.createElement("p");
       usesquote.innerText="FOR";
@@ -1401,6 +1462,16 @@ var skinthumbnails=document.querySelector(".skin-slide");
       withDiv.style.display="flex";
       withDiv.style.flexDirection="row";
       withDiv.style.gap="10px";
+      withDiv.style.cursor="pointer";
+      withDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
   
       var withquote=document.createElement("p");
       withquote.innerText="WITH";
@@ -1418,7 +1489,7 @@ var skinthumbnails=document.querySelector(".skin-slide");
       var addToCart=document.createElement("button");
       addToCart.innerText="Add to Cart";
       addToCart.style.width="100%";
-      addToCart.style.backgroundColor="rgb(102, 80, 154)";
+      addToCart.style.backgroundColor="rgb(72, 61, 139)";
       addToCart.style.color="white";
       addToCart.style.fontSize="20px";
       addToCart.style.border="none";
@@ -1427,9 +1498,18 @@ var skinthumbnails=document.querySelector(".skin-slide");
       addToCart.style.borderBottomLeftRadius="30px";
       addToCart.style.borderBottomRightRadius="30px";
       addToCart.style.cursor="pointer";
+      addToCart.addEventListener("mouseover", addCartBtnhover);
+      addToCart.addEventListener("mouseleave", addCartBtnleave);
+      function addCartBtnleave(){
+        addToCart.style.backgroundColor="rgb(72, 61, 139)";
+      }
+      function addCartBtnhover(){
+        addToCart.style.backgroundColor="rgba(72, 61, 139,0.7)";
+      }
       addToCart.addEventListener("click", addCart);
       function addCart()
       {
+        scroll(0,0);
         alert("The product has been added to the cart.")
         location.reload(true);
         elem.quant=1;
@@ -1439,7 +1519,6 @@ var skinthumbnails=document.querySelector(".skin-slide");
       detailDiv.append(starDiv,h1,rupeeDiv,forDiv,withDiv);
   
       boxDiv.append(image,detailDiv,addToCart);
-
       
   
       document.querySelector(".skin-thumbnails").append(mainDiv);
@@ -1487,7 +1566,16 @@ var weightthumbnails=document.querySelector(".weight-slide");
       image.style.width="250px";
       image.style.borderRadius="30px";
       image.setAttribute("src", elem.imageUrl);
-  
+      image.style.cursor="pointer";
+      image.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var starDiv=document.createElement("div");
       starDiv.style.width="237px";
       starDiv.style.height="26px";
@@ -1495,7 +1583,16 @@ var weightthumbnails=document.querySelector(".weight-slide");
       var h1=document.createElement("p");
       h1.innerText=elem.productName;
       h1.style.fontSize="20px";
-  
+      h1.style.cursor="pointer";
+      h1.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var rupeeDiv=document.createElement("div");
       rupeeDiv.style.display="flex";
   
@@ -1523,7 +1620,15 @@ var weightthumbnails=document.querySelector(".weight-slide");
       forDiv.style.display="flex";
       forDiv.style.flexDirection="row";
       forDiv.style.gap="10px";
-      
+      forDiv.style.cursor="pointer";
+      forDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
   
       var usesquote=document.createElement("p");
       usesquote.innerText="FOR";
@@ -1540,6 +1645,16 @@ var weightthumbnails=document.querySelector(".weight-slide");
       withDiv.style.display="flex";
       withDiv.style.flexDirection="row";
       withDiv.style.gap="10px";
+      withDiv.style.cursor="pointer";
+      withDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
   
       var withquote=document.createElement("p");
       withquote.innerText="WITH";
@@ -1566,9 +1681,18 @@ var weightthumbnails=document.querySelector(".weight-slide");
       addToCart.style.borderBottomLeftRadius="30px";
       addToCart.style.borderBottomRightRadius="30px";
       addToCart.style.cursor="pointer";
+      addToCart.addEventListener("mouseover", addCartBtnhover);
+      addToCart.addEventListener("mouseleave", addCartBtnleave);
+      function addCartBtnleave(){
+        addToCart.style.backgroundColor="rgb(0, 112, 97)";
+      }
+      function addCartBtnhover(){
+        addToCart.style.backgroundColor="rgba(0, 112, 97,0.7)";
+      }
       addToCart.addEventListener("click", addCart);
       function addCart()
       {
+        scroll(0,0);
         alert("The product has been added to the cart.")
         location.reload(true);
         elem.quant=1;
@@ -1602,7 +1726,7 @@ var pcosthumbnails=document.querySelector(".pcos-slide");
 pcosCarousal(pcosProducts);
   function pcosCarousal(pcosProducts){
     
-    weightProducts.map(function(elem){
+    pcosProducts.map(function(elem){
      
       var mainDiv=document.createElement("div");
       mainDiv.setAttribute("class","mainDiv");
@@ -1625,7 +1749,16 @@ pcosCarousal(pcosProducts);
       image.style.width="250px";
       image.style.borderRadius="30px";
       image.setAttribute("src", elem.imageUrl);
-  
+      image.style.cursor="pointer";
+      image.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var starDiv=document.createElement("div");
       starDiv.style.width="237px";
       starDiv.style.height="26px";
@@ -1633,7 +1766,16 @@ pcosCarousal(pcosProducts);
       var h1=document.createElement("p");
       h1.innerText=elem.productName;
       h1.style.fontSize="20px";
-  
+      h1.style.cursor="pointer";
+      h1.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var rupeeDiv=document.createElement("div");
       rupeeDiv.style.display="flex";
   
@@ -1661,7 +1803,15 @@ pcosCarousal(pcosProducts);
       forDiv.style.display="flex";
       forDiv.style.flexDirection="row";
       forDiv.style.gap="10px";
-      
+      forDiv.style.cursor="pointer";
+      forDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
   
       var usesquote=document.createElement("p");
       usesquote.innerText="FOR";
@@ -1678,6 +1828,16 @@ pcosCarousal(pcosProducts);
       withDiv.style.display="flex";
       withDiv.style.flexDirection="row";
       withDiv.style.gap="10px";
+      withDiv.style.cursor="pointer";
+      withDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
   
       var withquote=document.createElement("p");
       withquote.innerText="WITH";
@@ -1704,9 +1864,18 @@ pcosCarousal(pcosProducts);
       addToCart.style.borderBottomLeftRadius="30px";
       addToCart.style.borderBottomRightRadius="30px";
       addToCart.style.cursor="pointer";
+      addToCart.addEventListener("mouseover", addCartBtnhover);
+      addToCart.addEventListener("mouseleave", addCartBtnleave);
+      function addCartBtnleave(){
+        addToCart.style.backgroundColor="rgb(232, 102, 105)";
+      }
+      function addCartBtnhover(){
+        addToCart.style.backgroundColor="rgba(232, 102, 105,0.7)";
+      }
       addToCart.addEventListener("click", addCart);
       function addCart()
       {
+        scroll(0,0);
         alert("The product has been added to the cart.")
         location.reload(true);
         elem.quant=1;
@@ -1764,7 +1933,16 @@ feminineCarousal(feminineCareProducts);
       image.style.width="250px";
       image.style.borderRadius="30px";
       image.setAttribute("src", elem.imageUrl);
-  
+      image.style.cursor="pointer";
+      image.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var starDiv=document.createElement("div");
       starDiv.style.width="237px";
       starDiv.style.height="26px";
@@ -1772,7 +1950,16 @@ feminineCarousal(feminineCareProducts);
       var h1=document.createElement("p");
       h1.innerText=elem.productName;
       h1.style.fontSize="20px";
-  
+      h1.style.cursor="pointer";
+      h1.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
       var rupeeDiv=document.createElement("div");
       rupeeDiv.style.display="flex";
   
@@ -1800,7 +1987,15 @@ feminineCarousal(feminineCareProducts);
       forDiv.style.display="flex";
       forDiv.style.flexDirection="row";
       forDiv.style.gap="10px";
-      
+      forDiv.style.cursor="pointer";
+      forDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
   
       var usesquote=document.createElement("p");
       usesquote.innerText="FOR";
@@ -1817,6 +2012,16 @@ feminineCarousal(feminineCareProducts);
       withDiv.style.display="flex";
       withDiv.style.flexDirection="row";
       withDiv.style.gap="10px";
+      withDiv.style.cursor="pointer";
+      withDiv.addEventListener("click",productDetail)
+      function productDetail()
+      {
+        prodetail(elem);
+        location.href='productDetail.html?product='+elem.productName;
+        
+        
+      }
+
   
       var withquote=document.createElement("p");
       withquote.innerText="WITH";
@@ -1844,8 +2049,17 @@ feminineCarousal(feminineCareProducts);
       addToCart.style.borderBottomRightRadius="30px";
       addToCart.style.cursor="pointer";
       addToCart.addEventListener("click", addCart);
+      addToCart.addEventListener("mouseover", addCartBtnhover);
+      addToCart.addEventListener("mouseleave", addCartBtnleave);
+      function addCartBtnleave(){
+        addToCart.style.backgroundColor="rgb(94, 147, 189)";
+      }
+      function addCartBtnhover(){
+        addToCart.style.backgroundColor="rgba(94, 147, 189,0.7)";
+      }
       function addCart()
       {
+        scroll(0,0);
         alert("The product has been added to the cart.")
         location.reload(true);
         elem.quant=1;
@@ -1862,97 +2076,12 @@ feminineCarousal(feminineCareProducts);
     });
 }
 
-
-function detail(pro)
+var productDetails=JSON.parse(localStorage.getItem("productDetailData"))||[]
+function prodetail(prod)
 {
-    console.log("Hello");
-    scroll(0,0);
-    
-    
-    
-    // productDetailPage.innerHTML="";
-    productDetailPage.style.visibility="visible";
-
-    var productImageDiv=document.createElement("div");
-    productImageDiv.style.height="538px";
-    productImageDiv.style.width="466px";
-
-    var productImage=document.createElement("img");;
-    productImage.style.height="423px";
-    productImage.style.width="323px";
-    productImage.setAttribute("src",pro.imageUrl);
-
-    productImageDiv.append(productImage);
-
-
-    var descriptionDiv=document.createElement("div");
-    descriptionDiv.style.height="442px";
-    descriptionDiv.style.width="466px";
-
-    var descFor=document.createElement("p");
-    descFor.innerText="FOR: "+pro.productUses;
-    descFor.style.fontSize="25px";
-
-    var descName=document.createElement("p");
-    descName.innerText=pro.productName;
-    descName.style.fontSize="30px";
-    descName.style.fontWeight="bold";
-    descName.style.marginTop="20px";
-
-    var descPriceDiv=document.createElement("div");
-    descPriceDiv.style.display="flex";
-    descPriceDiv.style.gap="20px";
-    
-
-    var descPrice=document.createElement("p");
-    descPrice.innerText="₹"+" "+pro.price;
-    descPrice.style.fontSize="30px";
-    descPrice.style.fontWeight="bold";
-    descPrice.style.color="darkblue";
-    descPrice.style.marginTop="20px";
-
-    var descStrikePrice=document.createElement("s");
-    descStrikePrice.innerText="₹"+" "+pro.mrp;
-    descStrikePrice.style.fontSize="30px";
-    descStrikePrice.style.fontWeight="bold";
-    descStrikePrice.style.marginTop="20px";
-
-    descPriceDiv.append(descPrice,descStrikePrice)
-
-    var marketDesce=document.createElement("p");
-    marketDesce.style.fontSize="25px";
-    marketDesce.style.marginTop="20px";
-    marketDesce.innerText="MRP (Incl. of all taxes)";
-
-    var DecaddToCart=document.createElement("button");
-    DecaddToCart.innerText="Add to Cart";
-    DecaddToCart.style.width="100%";
-    DecaddToCart.style.backgroundColor="darkslateblue";
-    DecaddToCart.style.color="white";
-    DecaddToCart.style.fontSize="20px";
-    DecaddToCart.style.border="none";
-    DecaddToCart.style.paddingBottom="15px";
-    DecaddToCart.style.paddingTop="15px";
-    DecaddToCart.style.borderRadius="30px";
-    DecaddToCart.style.cursor="pointer";
-    DecaddToCart.style.marginTop="20px";
-    DecaddToCart.addEventListener("click", addCart);
-    function addCart()
-    {
-      alert("The product has been added to the cart")
-      location.reload(true);
-      pro.quant=1;
-      console.log(pro);
-      cart.push(pro);
-      localStorage.setItem("cartItems",JSON.stringify(cart));
-    }
-
-
-    descriptionDiv.append(descFor,descName,descPriceDiv,marketDesce,DecaddToCart);
-
-    document.querySelector(".product-detail").append(productImageDiv,descriptionDiv);
-
-
-
-};  
+  console.log(prod);
+  productDetails.pop();
+  productDetails.push(prod);
+  localStorage.setItem("productDetailData",JSON.stringify(productDetails));
+}
   

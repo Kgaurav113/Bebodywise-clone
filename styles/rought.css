@@ -1,0 +1,63 @@
+
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment{
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    width: 560px;
+    height:100px;
+    margin: auto;
+    margin-top: 25px;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment .rightSummary-payment{
+    display: flex;
+    width:450px;
+}
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment .rightSummary-payment .order-summary-1-payment{
+    color:white;
+    height: 80px;
+    width:80px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(55,159,142);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment .rightSummary-payment .order-summary-1-payment .order-summary-1-heading-payment{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment .rightSummary-payment .order-summary-2-payment .items-summary-heading-payment{
+    align-content: center;
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.checkoutDiv .checkout-1 .checkout-left .order-summary-payment .rightSummary-payment .order-summary-2-payment .items-summary-payment{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:15px;
+}
+.order-summary-payment .leftSummary-payment{
+    margin-top:25px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.order-summary-payment .leftSummary-payment .downarrow-payment{
+    visibility: visible;
+}
+.order-summary-payment .leftSummary-payment .uparrow-payment{
+    visibility: hidden;
+}

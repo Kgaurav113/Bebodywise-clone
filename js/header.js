@@ -1,5 +1,12 @@
 
-    //  <!-- /* Notification Bar */ -->
+
+   var emptyCartbutton=document.querySelector(".emptycartbutton");
+   emptyCartbutton.addEventListener("click",function(){
+       location.href="index.html";
+   })
+
+    //  <!-- /* Notification Bar */ -->;
+
     var body=document.querySelector("body");
     var notificationBar=document.querySelector(".notificationBar");
     var notificationClose=document.querySelector(".close");
@@ -27,6 +34,21 @@
         loginPage.style.top="18%";
         loginPage.style.transition="0.1s linear";
     })
+
+    // var loginData=[];
+    // var loginInput=document.getElementById(".login-bar").value;
+    // var loginInputBtn=document.querySelector("#login-submit");
+    // loginInputBtn.addEventListener("click",function()
+    // {
+
+        
+    //     console.log(+loginInput);
+
+    //     loginData.push(+loginInput);
+    //     alert("Account Added");
+    //     localStorage.setItem("LoginDetail",JSON.stringify(loginData))
+    // });
+    
 
     // <!-- search page -->
     var searchPage=document.querySelector(".search-page")

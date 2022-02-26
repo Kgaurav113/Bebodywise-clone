@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Be Bodywise</title>
+    <link rel="stylesheet" href="./styles/checkout.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://kit.fontawesome.com/66ab05bc09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- /* Notification Bar */ -->
+     <div class="notificationBar">
+        <div class="notification">
+            <p>Consult a Doctor for free</p>
+            <button>Book Now</button>
+            <p class="close"><i class="fa-solid fa-circle-xmark"></i></p>
+        </div>
+
+    </div>
+    <div class="navBar">
+    <div class="mainImage">
+        <a href="index.html"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1606295435/staging/Home/Images/bodywise-logo.png" /></a></div>
+
+    <!-- Header menu bar -->
+    <div class="menu">
+        <ul>
+            <li class="" ><a href="./doctorConsultation.html">Book Doctor Consultation</a></li>
+            <li class="" ><a href="./takewell.html">Take Wellness Assessment</a></li>
+            <li class=""><a href="#">Choose Conern<i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                    <li class="" ><a href="#">Hair</a></li>
+                    <li class="" ><a href="#">Skin</a></li>
+                    <li class="" ><a href="#">Nutrition</a></li>
+                    <li class="" ><a href="#">PCOS</a></li>
+                    <li class="" ><a href="#">Intimate Care</a></li>
+                </ul>
+            
+            </li>
+            <li class="" id="signup"><a href="./allproducts.html">All Products</a></li>
+            <li class="" id="cart"><a href="./refer.html">Refer & Earn</a></li>
+        </ul>
+    </div>
+    <div class="icon">
+        <a href="#" class="search"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_search.svg"/></a>
+        <a href="#" class="login"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/u_user.svg"/></a>
+        <a href="https://api.whatsapp.com/send/?phone=917710096671&text=Hey%21+I+would+like+to+know+more+about+Bodywise.&app_absent=0"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_48/v1603950724/staging/Home/Images/WhastApp.svg"/></a>
+        <a href="#" class="cart"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603950724/staging/Home/Images/u_shopping-bag.svg"/></a>
+        <span id="cartNotification">0</span>
+    </div>
+</div>
+<!-- order Summary Start -->
+    <div class="checkoutDiv">
+        <div class="checkout-1">
+            <div class="checkout-left">
+               
+                    <div class="order-summary-order">
+                        <div class="rightSummary-order">
+                            <div class="order-summary-1-order">
+                                <p class="order-summary-1-heading-order">1</p></div>
+                            <div class="order-summary-2-order">
+                            <p class="items-summary-heading-order" >Order Summary</p>
+                            <p class="items-summary-order"></p>
+                            </div>
+                        </div>
+                        <div class="leftSummary-order">
+                            <div class="order-summary-3-order">
+                                <a class="uparrow-order"><i class="fa-solid fa-angle-up"></i></a>
+                                <a class="downarrow-order"><i class="fa-solid fa-angle-down"></i></a>
+                            </div>
+                        </div>                   
+                </div>
+                <div class="order-summmary-order-product">
+                    
+                </div>
+                <button class="select-address">Select Address</button>
+                
+                <div class="order-summary-address">
+                    <div class="rightSummary-address">
+                        <div class="order-summary-1-address">
+                            <p class="order-summary-1-heading-address">2</p></div>
+                        <div class="order-summary-2-address">
+                        <p class="items-summary-heading-address" >Address</p>
+                        <p class="items-summary-address"></p>
+                        </div>
+                    </div>
+                    <div class="leftSummary-address">
+                        <div class="order-summary-3-address">
+                            <a class="uparrow-address"><i class="fa-solid fa-angle-up"></i></a>
+                            <a class="downarrow-address"><i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="order-summary-address-form">
+                    <input type="text" class="address-input" placeholder="Address" required>
+                </div>
+                <button class="proceed-to-payment">Proceed To Payment </button>
+                <div class="order-summary-payment">
+                    <div class="rightSummary-payment">
+                        <div class="order-summary-1-payment">
+                            <p class="order-summary-1-heading-payment">3</p></div>
+                        <div class="order-summary-2-payment">
+                        <p class="items-summary-heading-payment" >Payment</p>
+                        <p class="items-summary-payment">Choose mode of payment</p>
+                        </div>
+                    </div>
+                    <div class="leftSummary-payment">
+                        <div class="order-summary-3-payment">
+                            <a class="uparrow-payment"><i class="fa-solid fa-angle-up"></i></a>
+                            <a class="downarrow-payment"><i class="fa-solid fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="order-summary-payment-form">
+                    <input type="radio" id="payment">
+                    <label for="payment">Cash on delivery</label><br>
+                </div>
+                <button class="proceed-to-pay"></button>
+            </div>
+            <div class="checkout-right">
+                <h1>Pricing Summary</h1>
+    
+            </div>
+
+            
+        </div>
+        
+    </div>
+<!-- order Summary end -->
+
+     <!-- login page -->
+     <div class="login-bg">
+        <div class="login-page">
+            <div class="login-head">
+                <p class="login-heading">Login or Signup</p>
+                <span class="login-close">X</span>
+            </div>
+            <hr/>
+            <p class="p1">Enter your phone number to verify yourself</p>        
+            <input type="text" class="login-number" id="login-bar" placeholder="Enter Phone number">
+            <p class="p2">We will send OTP to this number</p>
+            <button id="login-submit">SUBMIT</button>
+        </div>
+    </div>
+    <!-- search page -->
+    <div class="search-bg">
+        <div class="search-page">
+            <div class="search-head">
+                <input type="text" placeholder="Search here...">
+                <a href="#"><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1622088832/staging/Home/Images/Vector.png"/></a>
+                <div class="cartNotification">0</div>
+                <span class="search-close">+</span>
+            </div>
+            <div class="trending">
+                <p>Trending</p>
+                <div class="trending-items">
+
+                </div>
+            </div>
+            <div class="recommended">
+                <p>Recommended Products</p>
+                <div class="recommended-items">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cart page -->
+    <div class="cart-bg">
+        <div class="cart-page">
+            <div class="cart-head">
+                <div class="cartClose"><i class="fa-solid fa-xmark"></i></div>
+                <div class="cartheading">Cart</div>
+            </div>
+            <div class="items-empty">
+                <div class="empty-cart">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_100,c_limit/v1620122159/staging/Home/Images/image_13.png"/>
+                <p class="emptySentencemain">Your Personal Health Briefcase is empty!</p>
+                <p class="emptySentence">Add products to cart and begin your wellness journey now</p>
+                <button class="emptycartbutton">Add Products</button>
+                </div>
+                
+            </div>
+            <div class="cart-footer">
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="./js/header.js"></script>
+<script src="./js/cart.js"></script>
+<script src="./js/products.js"></script>
+<script src="./js/checkout.js"></script>

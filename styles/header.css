@@ -7,13 +7,13 @@ body {
     overflow-y:scroll;
 }
 .navBar{
-    position:relative;
+    /* position:relative; */
     justify-content: space-around;
     width:100%;
     height:60px;
     background-color: black;
     display:flex;
-    font-size:17px;
+    font-size:15px;
     align-items: center;
     margin:0;
     padding:0;
@@ -28,37 +28,56 @@ body {
 .navBar .menu ul li{
     margin-left:15px;
     margin-right:15px;
+    color:black;
 
 }
-.navBar .menu ul li a{
-    color:white;
-    text-decoration: none;
-}
+
 .navBar .menu ul li a:hover{
     color:rgb(179, 185, 192);
     text-decoration: none;
 }
-.navBar .menu ul ul{
+.navBar .menu ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navBar .menu ul li ul li a{
+    color:rgb(151, 5, 235);
+    text-decoration: none;
+    text-align: center;
+}
+.navBar .menu ul li ul li a:hover{
+    color:rgb(24, 23, 23);
+    text-decoration: none;
+    text-align: center;
+}
+.navBar .menu ul li a{
+    display: flex;
+}
+.navBar .menu ul li ul{
     position: absolute;
     display:none;
     top:60px;
+    color:black;
 }
-.navBar .menu ul :hover ul{
+.navBar .menu ul li:hover ul{
     display:block;
-    margin-left:-55px;
-    margin-top:20px;
+    margin-left:-15px;
+    margin-top:30px;
+    border: none;
+    border-radius: 10px;
+    color:black;
 }
-.menu ul ul li{
+.menu ul li ul li{
     background-color: white;
     width:120px;
     text-align: center;
     color:black;
     position: relative;
 }
-.menu ul ul li a{
+.menu ul li ul li a{
     color:black;
-    padding:10px;
-    font-size: 15px;
+    /* padding:10px; */
+    font-size: 20px;
 }
 .mainImage img{
     height:26px;
@@ -71,7 +90,7 @@ body {
 /* Notification Bar --------->*/
 .notificationBar{
     width:100%;
-    height:30px;
+    height:50px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -184,6 +203,9 @@ body {
     padding:15px;
     font-size: 15px;
 }
+
+
+
 .login-page button{
     margin-top: 30px;
     width:100%;
@@ -312,9 +334,38 @@ body {
 .cart-bg .cart-page .cart-items .items-empty{
     color:black;
     display:block;
+    justify-content: center;
+    text-align: center;
 }
-.cart-bg .cart-page .cart-items .items-empty button{
+.cart-bg .cart-page .cart-items .items-empty .empty-cart{
+   padding-top: 40%;
+   margin-left:25px;
+   width:350px;
+}
+
+.cart-bg .cart-page .cart-items .items-empty .emptySentencemain{
     color:black;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart-bg .cart-page .cart-items .items-empty .emptySentence{
+    color:black;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+.cart-bg .cart-page .cart-items .items-empty .emptycartbutton{
+    color:white;
+    background-color: black;
+    margin-top: 15px;
+    width:338px;
+    height:40px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 .cart-bg .cart-page .cart-items .items img{
     height:80px;
@@ -345,4 +396,161 @@ body {
 
 #main{
     visibility: visible;
+    margin-top:40px;
+}
+
+
+/* Kiran's All CSS Code */
+
+     
+#con1{
+    display: flex;
+    width: 100%;
+    height: 281px;
+    margin: 35px 0px 65px 0px;
+    padding: 10px 96px 0px;
+    background-color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#con1 .con1-image img{
+    height: 281px;
+    width: 271px;
+    margin-left:60px;
+}
+#con1 >div div{
+    height: 271px;
+    width: 960px;
+    margin: 51px 0px 0px 28px;
+}
+#con1 .feeling-head h2{
+    color: #000;
+    font-size: 36px;
+    line-height: 2px;
+   font-weight: 500;
+   margin-bottom: 50px;
+}
+#con1 >div p{
+    color: #6C757D;
+    font-size: 22px;
+    margin: 0px 0px 16px;
+}
+#con1 >div button{
+    background-color: #000;
+    padding: 18px 80px;
+    border-radius: 20px;
+    color: #FFFF;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+#con2{
+    width: 70%;
+    margin: 35px 0px 65px 250px;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    margin:auto;
+    /* margin-left:250px; */
+
+}
+#con3{
+    display: flex;
+    width: 71%;
+    height: 400px;
+    margin: 1px 20% 0px 250px;
+    gap: 70px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#con3 > div{
+    
+    width: 30%;
+    height: 323px;
+    color: #007061;
+    font-size: 100px;
+    font-weight: 600;
+    justify-content: center;
+    margin:auto;
+    margin-left: -30px;
+}
+
+#con3 > div h4{
+    font-size: 30px;
+    color: #000;
+    margin-top: 1px;
+    margin-bottom: 10px;
+  font-weight: 550;
+}
+#con3 > div p{
+    font-size: 17px;
+    color: #6c6c6c;
+    font-weight: 500;
+    line-height: 25px;
+}
+.feeling-head{
+    margin-top: 20px;
+}
+
+/* meet out expert */
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#headd1{
+width: 70%;
+height: 49px;
+margin: 5px 15% 50px ;
+}
+#headd1 h2{
+font-size: 36px;
+}
+#meet{
+width: 2000px;
+height: 412px;
+display: flex;
+margin: 0px 0px 0px 225px;
+gap: 15px;
+
+}
+.meet1{
+width: 460px;
+height: 246px;
+background: #379F8E0D;
+border-radius: 20px;
+display: flex;
+gap: 25px;
+}
+.meet1 div:first-child{
+width: 109px;
+height: 109px;
+border: 3px solid #379F8E;
+border-radius: 25px;
+margin-left: 10px;
+
+}
+.meet2{
+width: 350px;
+height: 240px;
+
+}
+.meet1 div img{
+width: 108px;
+height: 108px;
+margin: -4px 0px 0px -3px;
+border-radius: 25px;
+}
+.meet2 h6{
+font-size: 22px;
+margin-bottom: -10px;
+margin-top: 10px;
+color: #379F8E;
+}
+
+.meet2 p{
+color: #6c6c6c;
+font-size: 17px;
+line-height: 23px;
 }

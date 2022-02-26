@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.paymentDiv{
+    
+    margin-top:150px;
+}
+
+#containerSamson {
+    height: 300px;
+    width: 68%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+#containerSamson #left {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    padding-left: 10px;
+}
+
+#containerSamson#right {
+    height: 100%;
+    width: 30%;
+    margin: auto;
+}
+
+#containerSamson #right #referimg {
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+    background-color: #f6f6f6;
+}
+
+#one {
+    font-size: 20px;
+    font-weight: 700px;
+    margin: 20px
+}
+
+#two {
+    font-size: 36px;
+    font-weight: 800px;
+    margin: 20px;
+    font-family: Avenir, serif;
+}
+
+#containerSamson #left button {
+    background: #000;
+    font-weight: 18px;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 20px;
+    border: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#payment {
+    height: 300px;
+    width: 68%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#paymentinside {
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    gap: 10%;
+}
+
+#payment1 {
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 60%;
+    /* margin: auto; */
+    border-radius: 20px;
+    display: flex;
+    background-color: #f6f6f6;
+    /* margin: auto; */
+
+}
+
+
+#payment2 {
+    /* border: 1px solid black; */
+    height: 50%;
+    width: 60%;
+    /* margin: auto; */
+    display: flex;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+}
+
+#paymentimg1 {
+    height: 48px;
+    width: 80px;
+    padding-top: 25px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+#content {
+    margin: auto;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+#option {
+    height: 300px;
+    width: 55%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 0;
+}
+
+#optioninside {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#optioninside div img {
+    height: 75px;
+    width: 120px;
+    justify-content: center;
+    padding: auto;
+}
