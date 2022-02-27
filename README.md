@@ -31,7 +31,7 @@ some snapshot of our website
 - [**Samson Samal**](https://www.linkedin.com/in/samson-seemal-773637204/)
 - [**Amitabh ranjan**]()
 - [**Narayan Chatalwar** ](https://www.linkedin.com/in/narayan-chatalwar-09905121a/)[https://github.com/Narayan-Chatalwar]
-- [**Kiran Das**]
+- [**Kiran Das**](https://www.linkedin.com/in/kiran-das-324b8a1b6/)
 ---
 
 ### Pages & Features 👇
